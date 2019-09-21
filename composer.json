@@ -1,0 +1,21 @@
+{
+    "name": "songzw\/weather",
+    "description": "my first package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "songzw",
+            "email": "songzw1024@163.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.3",
+        "mockery/mockery": "^1.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Songzw\\Weather\\": "src"
+        }
+    }
+}
