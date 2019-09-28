@@ -16,6 +16,7 @@
     "autoload": {
         "psr-4": {
             "Songzw\\Weather\\": "src"
-        }
+        },
+	"files":["/data/composer-demo/cmd-dumpautoload/ext/helper.php"]
     }
 }
